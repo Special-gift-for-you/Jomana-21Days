@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jomana — 21 Days 🤍</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-stars" id="loaderStars"></div>
+  <div class="loader-heart">♡</div>
+  <div class="loader-title">21 DAYS</div>
+  <div class="loader-sub">loading our little story...</div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<div class="grain"></div>
+<div class="stars" id="stars"></div>
+<div class="aurora aurora-a"></div><div class="aurora aurora-b"></div>
+<div class="hearts" id="hearts"></div>
+
+<main id="app">
+<section class="opening" id="opening">
+  <div class="opening-content">
+    <div class="tiny">PRIVATE MEMORY · 21 DAYS</div>
+    <div class="orb">♡</div>
+    <div class="opening-line">جمانة...</div>
+    <h1>في حكاية صغيرة<br><span>نفسي احكيهالك.</span></h1>
+    <p>م مجرد رسالة وم مجرد صورة.<br>دي كل الحاجات اللي فضلت جوايا من اول ما عرفتك.</p>
+    <button class="start-btn" id="startBtn"><span>ابدئي الحكاية 🤍</span><i>↗</i></button>
+    <div class="hint">خدي وقتك… واسكرولي براحتك.</div>
+  </div>
+</section>
+
+<section class="story hidden" id="story">
+  <header class="story-top">
+    <div class="profile">
+      <div class="avatar">J</div>
+      <div><strong>Jomana</strong><small>our little story · <span>21 days</span></small></div>
+    </div>
+    <div class="counter"><span id="counter">01</span><b>/</b> 15</div>
+  </header>
+
+  <div class="scroll-progress"><span id="progress"></span></div>
+
+  <div class="messages" id="messages"></div>
+
+  <div class="story-controls">
+    <button id="nextBtn">الرسالة اللي بعدها <b>↓</b></button>
+    <button id="finishBtn" class="finish-btn hidden">انهاء الحكاية ♡</button>
+  </div>
+</section>
+
+<section class="ending hidden" id="ending">
+  <div class="ending-glow"></div>
+  <div class="tiny">ONE LAST THING</div>
+  <h2>احلى صدفة<br><span>حصلت في حياتي.</span></h2>
+  <p>وم عايز الصدفة دي تكون مجرد ذكرى…<br>نفسي ربنا يديمك ليا ويخلي اللي جاي احلى.</p>
+
+  <div class="final-photo">
+    <img src="bac.jpeg" alt="Jomana">
+    <div class="photo-shine"></div>
+    <div class="photo-caption">my favorite person 🤍</div>
+  </div>
+
+  <div class="final-message">
+    <div class="final-quote">"بجد انتي قمر… وربنا يديمك ليا." 🤍</div>
+    <p>
+      من اول نظرة لاول كلام لاول اعتراف لحد الـ21 يوم دول…
+      كل حاجة حصلت بينا بقت من الحاجات اللي مستحيل احب انساها.
+    </p>
+  </div>
+
+  <div class="signature">23/08 → 10/09 → 15/09 → 22/09 → <b>21 DAYS</b></div>
+  <button class="replay" id="replay">نعيشها من الاول ♡</button>
+</section>
+</main>
+
+<audio id="bgMusic" preload="auto" loop><source src="music.mp3" type="audio/mpeg"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
